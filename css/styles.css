@@ -320,8 +320,27 @@ nav {
 }
 
 .client-logo {
-    width: 10%;
-    padding: 12px;
+    padding: 10px 35px;
+}
+
+.standage   {
+    width: 18%;
+}
+
+.sormerset   {
+    width: 16%;
+}
+
+.spoof   {
+    width: 12.5%;
+}
+
+.osc   {
+    width: 12%;
+}
+
+.uaba   {
+    width: 18%;
 }
 
 /* Features section */
@@ -1003,6 +1022,17 @@ video {
     color: #0A033C;
     font-family: 'Mulish', sans-serif;
     font-weight: 900;
+}
+
+.customize-btn  {
+    position: absolute;
+    right: 16.6rem;
+    top: 259rem;
+    border-radius: 30px;
+    background-color: #002f70;
+    color: #fff;
+    padding: 8px 10px 8px 19px;
+    text-align: center;
 }
 
 /* Footer Section */
