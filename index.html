@@ -17,11 +17,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
 
     <!--Bootstrap Scripts-->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -62,10 +72,13 @@
                             <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Traindemy Solutions</a>
+                            <a class="nav-link" href="#">Solutions</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Learning</a>
                         </li>
                     </ul>
                     <button class="btn sign-btn">Sign in</button>
@@ -75,74 +88,38 @@
             <!-- End of navigation bar -->
 
 
+            <div class="row">
 
-            <!-- start of hero section -->
+                <!-- start of hero section -->
 
-            <div class="hero">
+                <div class="col-lg-6 hero">
 
-                <h1 data-aos="fade-right" data-aos-duration="2000" class="hero-title"><span
-                        class="training-text">Accelerate</span> your <span class="employee-text"></span>
-                    performance with the right tools.</h1>
+                    <h1 data-aos="fade-right" data-aos-duration="2000" class="hero-title"><span
+                            class="training-text">Accelerate</span> your <span class="employee-text"></span>
+                        Engagement with the right tools.</h1>
 
-                <p data-aos="fade-up" data-aos-duration="2000" class="hero-paragraph">Access a variety of solutions for
-                    your training, staff onboarding, assessment, offline events, webinars and more.
-                </p>
-
-                <button data-aos="fade-up" data-aos-duration="2000" class="btn getStart-btn btn-primary">
-                    <span class="getStart">Start your free trial</span>
-                </button>
-
-                <!-- Start Watch Demo Video -->
-
-                <div id="light">
-                    <!-- <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a> -->
-                    <iframe id="VisaChipCardVideo" width="800" height="500"
-                        src="https://www.youtube.com/embed/QM0zFlG0QB0?controls=1?showinfo=0&rel=0&enablejsapi=1"
-                        frameborder="0" allowfullscreen>
-                    </iframe>
-                    <!-- <video id="VisaChipCardVideo" width="600" controls>
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"> -->
+                    <p data-aos="fade-up" data-aos-duration="2000" class="hero-paragraph">Access a variety of solutions
+                        for your training, staff onboarding, assessment, offline events, webinars and more.
+                    </p>
+                    <button data-aos="fade-up" data-aos-duration="2000" class="btn getStart-btn btn-primary">Start your
+                        free trial</button>
+                    <button data-aos="fade-up" data-aos-duration="2000" class="btn getStart-watch-btn">Request a
+                        Demo</button>
                 </div>
 
-                <div id="fade" onClick="lightbox_close();"></div>
+                <div class="col-lg-6 hero-images">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="lady-img" tooltip="picture"
+                        src="images/lady-img.png" alt="the fine girl in the front page">
+                    <img class="hero-fpic" src="images/first-hero.png" alt="3 courses registered">
+                    <img data-aos="hero-spic" data-aos-duration="3000" class="hero-spic" src="images/sec-hero.png"
+                        alt="200 staff account">
+                    <img class="hero-thpic" src="images/th-hero.png" alt="copy icon">
+                    <img class="hero-fopic" src="images/forth-hero.png" alt="copy icon">
+                    <img class="hero-fifpic" src="images/fifth-hero.png" alt="copy icon">
 
-                <a onclick="lightbox_open();">
-                    <button data-aos="fade-up" data-aos-duration="2000" class="btn fprice-btn getStart-watch-btn">
-                        <span class="getStart-watch">Watch Demo</span>
-                        <i class="fas fa-caret-right"></i>
-                    </button>
-                </a>
-
-                <!-- End Watch Demo video -->
+                </div>
 
             </div>
-
-        </div>
-
-        <div class="hero-images">
-            <img data-aos="fade-up" data-aos-duration="2000" class="lady-img" tooltip="picture"
-                src="images/lady-img.png" alt="the fine girl in the front page">
-            <!-- <span class="tooltiptext">
-                        <ol>
-                            <li>Assessment</li>
-                            <li>Learning & Development</li>
-                            <li>Staff On-boarding </li>
-                            <li>Training</li>
-                            <li>Create events</li>
-                            <li>VR/AR</li>
-                        </ol>
-                    </span> -->
-            <img class="hero-fpic" src="images/first-hero.png" alt="3 courses registered">
-            <img data-aos="hero-spic" data-aos-duration="3000" class="hero-spic" src="images/sec-hero.png"
-                alt="200 staff account">
-            <img class="hero-thpic" src="images/th-hero.png" alt="copy icon">
-            <img class="hero-fopic" src="images/forth-hero.png" alt="copy icon">
-            <img class="hero-fifpic" src="images/fifth-hero.png" alt="copy icon">
-
-        </div>
-
-        </div>
-        <!-- End of Hero section -->
 
         </div>
 
@@ -177,71 +154,42 @@
 
         <!-- First feature -->
 
-        <div data-aos="fade-up-right" data-aos-duration="2000" class="img-bg">
-            <img class="feature-img-1" src="images/f1.jpg" alt="first-image">
-            <img class="feature-img-2" src="images/f2.jpg" alt="second-image">
-            <img class="feature-img" src="images/f3.jpg" alt="third-image">
-        </div>
+        <h3 data-aos="fade-up" data-aos-duration="2000" class="f-description">Discover how Traindemy is helping
+            businesses access technologies that allows them connect with customers and employees better.</h3>
 
-        <!-- Start of video section -->
-        <div id="f-video">
-            <a class="boxclose" id="boxclose" onclick="video_close();"></a>
-
-            <div data-aos="zoom-in" data-aos-duration="3000" class="feature-video">
-                <video id="FeatureVideo" width="1000" controls preload="auto" onplay="playing()">
-                    <source src="videos/new-video.mp4" type="video/mp4">
-            </div>
-        </div>
-
-        <div id="close" onClick="video_close();"></div>
-
-        <!-- The play button -->
-        <a onclick="video_open();">
-            <button class="vid-overlay">
-                <img data-aos="fade-down" data-aos-duration="2000" src="images/video-overlay.jpg" alt=""
-                    class="video-img">
-                <span class="play-btn">
-                    <i class="fas fa-play-circle"></i>
-                </span>
-            </button>
-        </a>
-
-        <div data-aos="fade-up" data-aos-duration="2000" class="desc-container">
-            <h3 class="f-description">Discover efficient on-boarding, Training, Assessment, Data Management and more;
-                everything you need in one place.</h3>
-        </div>
-        <!-- End of video section -->
         <!-- End of First feature -->
 
+        
 
         <!-- Second feature -->
-        <div data-aos="flip-left" data-aos-duration="2000" class="desc-container-2">
 
-            <h4 class="sf-description">The best schools and academies use our solutions.</h4>
+        <div class="s-feature row">
+            <div data-aos="flip-left" data-aos-duration="2000" class="col-lg-7 desc-container-2">
 
-            <p class="p-desc">From school management portal, LMS, students assessment, summer camps to skills
-                workshops and more, Traindemy makes every subscription worth it.</p>
+                <h4 class="sf-description">The best schools and academies use our solutions.</h4>
 
-            <button class="btn feature-btn btn-primary"><span class="b-instructor">Get started with your
-                    school</span></button>
+                <p class="p-desc">From school management portal, LMS, students assessment, summer camps to skills
+                    workshops and more, Traindemy makes every subscription worth it.</p>
 
-        </div>
+                <button class="btn feature-btn btn-primary">Get started now</button>
 
 
-        <div class="s-img-bg">
-            <img data-aos="zoom-in" data-aos-duration="2000" class="feature-img-one" src="images/Kaffy.png"
+            </div>
+
+            <img data-aos="zoom-in" data-aos-duration="2000" class="feature-img-one col-lg-2" src="images/Kaffy.png"
                 alt="first-image">
-            <img data-aos="zoom-in" data-aos-duration="2000" class="kaffy-badge"
-                src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge">
-            <img data-aos="fade-down" data-aos-duration="2000" class="feature-img-two" src="images/Spoof.png"
+            <!-- <img data-aos="zoom-in" data-aos-duration="2000" class="kaffy-badge"
+                    src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge"> -->
+            <img data-aos="fade-down" data-aos-duration="2000" class="feature-img-two col-lg-2" src="images/Spoof.png"
                 alt="second-image">
-            <img data-aos="fade-down" data-aos-duration="2000" class="spoof-badge"
-                src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge">
-            <img data-aos="fade-left" data-aos-duration="2000" class="feature-img-three" src="images/Paintertainer.png"
-                alt="third-image">
-            <img data-aos="fade-left" data-aos-duration="2000" class="paintertainer-badge"
-                src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge">
+            <!-- <img data-aos="fade-down" data-aos-duration="2000" class="spoof-badge"
+                    src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge"> -->
+            <img data-aos="fade-left" data-aos-duration="1000" class="feature-img-three col-lg-2"
+                src="images/Paintertainer.png" alt="third-image">
+            <!-- <img data-aos="fade-left" data-aos-duration="2000" class="paintertainer-badge"
+                    src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge"> -->
         </div>
+
         <!-- End of Second feature -->
 
     </section>
@@ -251,22 +199,27 @@
     <!-- Start of get started section -->
     <section id="getStarted">
 
-        <img class="gs-img" src="images/woman.jpg" alt="the woman image">
-        <img class="course-gs-img" src="images/course-tab.png" alt="courses image">
+        <div class="row">
+            <img class="col-lg-8 gs-img" src="images/woman.jpg" alt="the woman image">
+            <img class="course-gs-img" src="images/course-tab.png" alt="courses image">
 
-        <div data-aos="fade-up" data-aos-duration="2000" class="gs-description">
+            <div class="empty-div col-lg-4">
 
-            <h1 class="gs-texts">Just like shopping, you get to choose only the services your need.</h1>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-lg-4 gs-description">
 
-            <p class="p-desc">Say goodbye to getting billed for features you don't use. Add or remove softwares at will
-                from your subscription.</p>
+                <h1 class="gs-texts">Prioritise customer success from day 1.</h1>
 
-            <button class="btn gs-btn feature-btn">
-                <span class="gs-button">Visit software marketplace</span>
-                <!-- <i class="fas fa-caret-right"></i> -->
-            </button>
+                <p class="p-desc">Start with an engaging digital user manual, then regular product education. This will
+                    help
+                    your customers better understand your product and become loyal.</p>
 
+                <button class="btn gs-btn feature-btn">Get started with your business</button>
+
+            </div>
         </div>
+
+
 
     </section>
     <!-- Start of get started section -->
@@ -276,18 +229,13 @@
     <section id="corporate-training">
 
         <!-- t-coporate description -->
-        <h1 class="cprt-title">Training and Onboarding tools for corporates</h1>
+        <h1 class="cprt-title">Hassle free corporate training and staff on-boarding for your teams.</h1>
 
-        <p class="cprt-desc p-desc">Create an efficient learning and development plan for your team as well as an
-            effective product education for your customers.</p>
+        <p class="cprt-desc p-desc">Transform your workforce to superstars by creating an efficient learning and
+            development plan with the right tools.</p>
 
         <!-- Get started button -->
-        <button class="btn feature-btn cprt-btn">
-
-            <span class="gs-button">Get started with your company</span>
-            <!-- <i class="fas fa-caret-right"></i> -->
-
-        </button>
+        <button class="btn feature-btn cprt-btn">Get started with your company</button>
         <!-- End of Get started button -->
 
 
@@ -302,43 +250,35 @@
     </section>
     <!-- End of coporate training section -->
 
-    <img class="instructor-svg" src="images/svg-ln.png" alt="">
-    <img class="s-instructor-svg" src="images/svg-ln-2.png" alt="">
-    
+    <!-- <img class="instructor-svg" src="images/svg-ln.png" alt="">
+    <img class="s-instructor-svg" src="images/svg-ln-2.png" alt=""> -->
+
     <!-- Start of instructor section -->
     <section id="instructor">
 
-        <!-- instructor description -->
-        <div class="instructor-desc" data-aos="fade-right" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-lg-8 instructor-desc" data-aos="fade-right" data-aos-duration="2000">
+                <h3 class="dev-title sf-description">Join our developers program</h3>
+                <p class="p-desc">Over 100 developers and teams are making money by contributing 21st century software
+                    to
+                    our marketplace.
+                </p>
+                <button class="btn instructor-btn btn-primary">Apply to join</button>
+            </div>
 
-            
-
-            <h3 class="dev-title sf-description">Join our developers program</h3>
-
-            <p class="p-desc">Over 100 developers and teams are making money by contributing 21st century software to
-                our marketplace.
-            </p>
-
-            <button class="btn instructor-btn feature-btn btn-primary"><span class="b-instructor">Apply to
-                    join</span></button>
-
-            
+            <div class="col-lg-4 instructor-images">
+                <img data-aos="fade-down" data-aos-duration="2000" class="instructor-img"
+                    src="images/instructor-img.png" alt="third-image">
+            </div>
         </div>
-        <!-- End of instructor description -->
 
-        <!-- instructors images -->
-        <div class="instructor-images">
-            <img data-aos="fade-down" data-aos-duration="2000" class="instructor-img" src="images/instructor-img.png"
-                alt="third-image">
 
-        </div>
-        <!-- End of instructors images -->
 
     </section>
     <!-- End of instructor section -->
 
     <!--The svg line in the testimonial background-->
-    <img src="images/testimonial-bg.png" alt="" class="testimonial-svg">
+    <!-- <img src="images/testimonial-bg.png" alt="" class="testimonial-svg"> -->
 
     <!-- Start of testimonials section -->
     <section id="testimonials">
@@ -356,7 +296,7 @@
 
 
 
-            <div class="row mx-lg-n5">
+            <div class="testimony-div row mx-lg-n5">
 
                 <!-- First testimony -->
                 <div class="f-testimony col mr-lg-3">
@@ -378,7 +318,7 @@
                 <!-- Second testimony -->
                 <div class="s-testimony col">
 
-                    <p>I use Traindemy LMS software for my trainings and it has helped me reach more students.</p>
+                    <p class="testimonial-p">I use Traindemy LMS software for my trainings and it has helped me reach more students.</p>
 
                 </div>
                 <!-- End of Second testimony -->
@@ -402,153 +342,140 @@
     <!-- Start of pricing plan section -->
     <section id="pricing-plan">
 
-        <!-- The plan card -->
-        <div class="plan-card">
-            <div class="f-plan">
-                <h3 class="duration-cost">$30</h3>
-                <span class="price-duration">Per Month</span>
-                <p class="for-individuals">For individuals trainers & facilitator</p>
-                <h3 class="pcard-title">LMS</h3>
-                <ul class="pcard-lst">
-                    <li>Create Online Courses</li>
-                    <li>In-app messaging with students</li>
-                    <li>Publish unlimited courses</li>
-                    <li>Custom domain option</li>
-                    <li>Generate discount coupons</li>
-                    <li>Eventspro, Online and Offline events</li>
-                </ul>
-
-                <button class="btn fprice-btn feature-btn">
-                    <span class="p-gt-btn">Select</span>
-                    <i class="fas fa-caret-right"></i>
-                </button>
-
-            </div>
-
-            <div class="s-plan">
-                <h3 class="s-duration-cost">$50</h3>
-                <span class="s-price-duration">per month</span>
-                <p class="for-schools">For Schools/Academics</p>
-                <!-- <h3 class="s-pcard-title">LMS</h3> -->
-                <ul class="s-pcard-lst">
-                    <li>School management System</li>
-                    <li>TestX, Assessment Software</li>
-                    <li>Traindemy LMS</li>
-                    <li>Eventpro</li>
-                    <li>Nigenius, Google for teachers</li>
-                </ul>
-
-                <button class="btn sprice-btn feature-btn btn-primary">
-                    <span class="p-gt-btn">Select</span>
-                    <i class="fas fa-caret-right"></i>
-                </button>
-
-            </div>
-
-            <div class="th-plan">
-                <h3 class="th-duration-cost">$50</h3>
-                <span class="th-price-duration">per month</span>
-                <p class="for-sme">For SMEs</p>
-                <!-- <h3>LMS</h3> -->
-                <ul class="th-pcard-lst">
-                    <li>Company Profile</li>
-                    <li>Corporate Training</li>
-                    <li>Assessment</li>
-                    <li>Company Data Management</li>
-                    <li>Onboarding</li>
-                </ul>
-
-                <button class="btn thprice-btn feature-btn">
-                    <span class="p-gt-btn">Select</span>
-                    <i class="fas fa-caret-right"></i>
-                </button>
-                <!-- End of Get started button -->
-
-            </div>
-
-        </div>
-        <!-- The plan card -->
-
         <!-- Our plan description -->
         <div class="plan-desc">
             <p class="small-title">Pricing is easy</p>
             <h3 class="p-description">Start first with what you need and then the free stuff.</h3>
-            <button class="btn customize-btn">
-                <span class="p-gt-btn">Customize your subscription</span>
-            </button>
+            <button class="btn customize-btn"></i>Customize your subscription<i class="fas fa-caret-right"></i></button>
         </div>
-        
-        <!-- End of Our plan description -->
 
+        <!-- End of Our plan description -->
 
     </section>
     <!-- End of pricing plan section -->
 
+    <section id="plan-card">
+
+        <!-- The plan card -->
+        <div class="row">
+
+            <div class="col-lg-4 f-plan">
+                <h3 class="pcard-title">LMS</h3>
+                <h3 class="duration-cost">$30</h3>
+                <span class="price-duration">Per Month</span>
+                <p class="for-individuals">For individuals trainers & facilitators</p>
+                <ul class="pcard-lst">
+                    <li><i class="fas fa-check"></i>Create Online Courses</li>
+                    <li><i class="fas fa-check"></i>In-app messaging with students</li>
+                    <li><i class="fas fa-check"></i>Publish unlimited courses</li>
+                    <li><i class="fas fa-check"></i>Custom domain option</li>
+                    <li><i class="fas fa-check"></i>Generate discount coupons</li>
+                    <li><i class="fas fa-check"></i>Eventspro, Online and Offline events</li>
+                </ul>
+                <button class="btn fprice-btn">Select Plan</button>
+            </div>
+
+            <div class="col-lg-4 s-plan">
+                <h3 class="s-duration-cost">$100</h3>
+                <span class="s-price-duration">Per Month</span>
+                <h3 class="for-schools">For Schools/Academics</h3>
+                <ul class="s-pcard-lst">
+                    <li><i class="fas fa-check"></i>School management System</li>
+                    <li><i class="fas fa-check"></i>TestX, Assessment Software</li>
+                    <li><i class="fas fa-check"></i>Traindemy LMS</li>
+                    <li><i class="fas fa-check"></i>Eventpro</li>
+                    <li><i class="fas fa-check"></i>Nigenius, Google for teachers</li>
+                </ul>
+                <button class="btn fprice-btn feature-btn">Select Plan</button>
+            </div>
+
+            <div class="col-lg-4 th-plan">
+                <h3 class="th-duration-cost">$100</h3>
+                <span class="th-price-duration">per month</span>
+                <p class="for-sme">For SMEs</p>
+                <ul class="th-pcard-lst">
+                    <li><i class="fas fa-check"></i>Company Profile</li>
+                    <li><i class="fas fa-check"></i>Corporate Training</li>
+                    <li><i class="fas fa-check"></i>Assessment</li>
+                    <li><i class="fas fa-check"></i>Company Data Management</li>
+                    <li><i class="fas fa-check"></i>Onboarding</li>
+                </ul>
+                <button class="btn fprice-btn feature-btn">Select Plan</button>
+            </div>
+
+        </div>
+
+        <!-- The plan card -->
+    </section>
 
     <!-- Footer section -->
     <section id="footer">
 
-        <!-- brand section of the footer -->
-        <div class="brand">
-            <img class="footer-logo" src="images/logo.png" alt="the company brand logo">
-            <p class="footer-abt">Access innovative training solutions for your product education, online training,
-                summer camps,
-                assessment, webinars, gamified learning and more.</p>
-            <input class="footer-input" id="email" type="email" placeholder="Enter your email">
-            <button class="btn footer-email-btn">
-                <span class="Subscribe-btn">Subscribe now</span>
-            </button>
-        </div>
-        <!-- end of brand section of the footer -->
 
-        <!-- company section -->
-        <div class="company">
-            <h4 class="comp-title">Company</h4>
-            <ul class="footer-lst">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">How we work</a></li>
-                <li><a href="#">Help/FAQ</a></li>
-            </ul>
-        </div>
-        <!-- end of company section -->
+        <div class="row">
 
-        <!-- solution section -->
-        <div class="solution">
-            <h4 class="solution-title">Solutions</h4>
-            <ul class="footer-lst">
-                <li><a href="#">Product Marketplace</a></li>
-                <li><a href="#">LMS</a></li>
-                <li><a href="#">SummerClasses</a></li>
-                <li><a href="#">Workshop</a></li>
-                <li><a href="#">School Management Portal</a></li>
-            </ul>
-        </div>
-        <!-- end of solution section -->
+            <!-- brand section of the footer -->
+            <div class="col-lg-4 col-md-8 brand">
+                <img class="footer-logo" src="images/logo.png" alt="the company brand logo">
+                <p class="footer-abt">Access innovative training solutions for your product education, online training,
+                    summer camps, assessment, webinars, gamified learning and more.</p>
+                <input class="footer-input" id="email" type="email" placeholder="Enter your email">
+                <button class="btn footer-email-btn">
+                    <span class="Subscribe-btn">Subscribe now</span>
+                </button>
+            </div>
 
-        <!-- more section -->
-        <div class="more">
-            <h4 class="more-title">More</h4>
-            <ul class="footer-lst">
-                <li><a href="#">Become a Trainer</a></li>
-                <li><a href="#">Companies</a></li>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Sign up</a></li>
-                <li><a href="#">Gift Course</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
-        <!-- end of more section -->
+            <!-- company section -->
+            <div class="col-lg-2 col-md-4 company">
+                <h4 class="comp-title">Company</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">How we work</a></li>
+                    <li><a href="#">Help/FAQ</a></li>
+                </ul>
+            </div>
+            <!-- end of company section -->
 
-        <!-- legal section -->
-        <div class="legal">
-            <h4 class="legal-title">Legal</h4>
-            <ul class="footer-lst">
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Condition</a></li>
-            </ul>
+            <!-- solution section -->
+            <div class="col-lg-2 col-md-4 solution">
+                <h4 class="solution-title">Solutions</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">Product Marketplace</a></li>
+                    <li><a href="#">LMS</a></li>
+                    <li><a href="#">SummerClasses</a></li>
+                    <li><a href="#">Workshop</a></li>
+                    <li><a href="#">School Management Portal</a></li>
+                </ul>
+            </div>
+            <!-- end of solution section -->
+
+            <!-- more section -->
+            <div class="col-lg-2 col-md-4 more">
+                <h4 class="more-title">More</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">Become a Trainer</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Gift Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <!-- end of more section -->
+
+            <!-- legal section -->
+            <div class="col-lg-2 col-md-4 legal">
+                <h4 class="legal-title">Legal</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+            <!-- end of legal section -->
+
         </div>
-        <!-- end of legal section -->
+
 
         <!-- copyright texts -->
         <p class="copyright">All rights reserved &copy; Traindemy Company Limited</p>
@@ -556,7 +483,7 @@
     </section>
     <!-- End of Footer section -->
 
-    <script src="js/video.js"></script>
+    <script src="js/index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
